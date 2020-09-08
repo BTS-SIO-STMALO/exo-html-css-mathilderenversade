@@ -16,3 +16,42 @@ h2 {
 strong {
     background-color: yellow;
 }
+
+header, footer {
+    background-color: #0DBB9D;
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    text-align: center;
+}
+
+section p {
+    text-align: left;
+}
+
+#sectionbleue {
+    background-color: blue;
+}
+
+.definition {
+    background-color:#FFFFDB;
+}
+
+h3 {
+    font-style: italic;
+    font-weight: 800;
+}
+
+div {
+    font-style: italic;
+    text-decoration: overline;
+}
+
+span {
+    font-style: italic;
+    text-decoration: overline;
+}
+
