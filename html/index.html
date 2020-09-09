@@ -10,22 +10,23 @@
 <body>
     <!-- Votre HTML viendra par ici ;) -->
     <header>
-        <h1>HTML & CSS</h1>
+        <h1>HTML <span>&</span> CSS</h1>
     </header>
     <main>
         <!--je choisis mes balises html en fonction de leur valeur sémantique afin de décrire le plus spécifiquement le contenu de ma page. la balise <div> par exemple n'a aucune valeur sémantique elle ne permet pas du tout de décrire le contenu de ma page. la balise <article> est intéressante mais s'utilise plus dans le cas d'un contenu relatif à un article soit où on retrouve d'autres éléments associés du type auteur et date de publication. Ici la balise <section> paraît la plus appropriée dans le contexte de cette page -->
         <section>
             <h2>HTML : Le fond</h2>
-            <p class="definition"><strong>HTML</strong> signifie <span>"HyperText Markup Language"</span> qu'on peut traduire par "langage de balises pour l'hypertexte". Il est utilisé afin de créer et de représenter le contenu d'une page web et sa structure. D'autres technologies sont utilisées avec HTML pour décrire la présentation d'une page (CSS) et/ou ses fonctionnalités interactives (JavaScript).
+            <!-- j'utilise un sélecteur de classe via l'attribut class apposé à ma balise html car je souhaite appliquer un même style à plusieurs éléments => en savoir plus : https://developer.mozilla.org/fr/docs/Web/CSS/S%C3%A9lecteurs_de_classe -->
+            <p class="definition"><strong>HTML</strong> signifie <em>"HyperText Markup Language"</em> qu'on peut traduire par "langage de balises pour l'hypertexte". Il est utilisé afin de créer et de représenter le contenu d'une page web et sa structure. D'autres technologies sont utilisées avec HTML pour décrire la présentation d'une page (CSS) et/ou ses fonctionnalités interactives (JavaScript).
             </p>
             <h3>Les textes</h3>
-            <p>Avec les balises <strong>h1-h6</strong> il est possible de définir des titres en respectant une logique de profondeur. Pour représenter un paragraphe de texte courant la balise <strong>p</strong> est parfaite <strong>strong</strong> et <strong>em</strong> sont des balises permettant de définir des mots ou expressions signifiants dans un texte courant
+            <p>Avec les balises <strong>h1-h6</strong> il est possible de définir des titres en respectant une logique de profondeur. Pour représenter un paragraphe de texte courant la balise <strong>p</strong> est parfaite <strong>strong</strong> et <strong>em</strong> sont des balises permettant de définir des mots ou expressions <em>signifiants</em> dans un texte courant
             </p>
         </section>
 
         <section>
             <h2>CSS : La forme </h2>
-            <p class="definition"><strong>CSS</strong> signifie <span>"Cascading Style Sheets"</span>, c'est un langage de feuille de style utilisé pour décrire la présentation d'un document écrit en HTML ou en XML. CSS décrit la façon dont les éléments doivent être affichés à l'écran, sur du papier, en vocalisation, ou sur d'autres supports.
+            <p class="definition"><strong>CSS</strong> signifie <em>"Cascading Style Sheets"</em>, c'est un langage de feuille de style utilisé pour décrire la présentation d'un document écrit en HTML ou en XML. CSS décrit la façon dont les éléments doivent être affichés à l'écran, sur du papier, en vocalisation, ou sur d'autres supports.
             </p>
             
             <h3>Anatomie d'une règle CSS</h3>
