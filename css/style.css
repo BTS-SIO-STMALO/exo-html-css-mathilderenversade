@@ -68,3 +68,17 @@ span {
 footer a {
     color : white;
 }
+
+/* == Bonus == */
+
+footer a:hover {
+    color: red;
+}
+
+#ressources {
+    color: black;
+}
+
+ul {
+    text-align: left;
+}
