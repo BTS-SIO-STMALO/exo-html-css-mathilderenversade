@@ -82,3 +82,9 @@ footer a:hover {
 ul {
     text-align: left;
 }
+
+/* == Super Bonus == */
+img {
+    border: 1px solid black;
+    border-radius: 10px;
+}
